@@ -17,6 +17,8 @@ const NavBarExample = function (){
             <Nav.Link as={Link} to="/">Home</Nav.Link>            
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+            <Nav.Link as={Link} to="/catalogo">Catalogo</Nav.Link>
+            <Nav.Link as={Link} to="/item">Detalle producto</Nav.Link>
             {/* <Nav.Link href="#"><CartWidget /></Nav.Link> */}
             <Nav.Link as={Link} to="#"> <CartWidget /> </Nav.Link>
             <Nav.Link as={Link} to="/itemListContainer">ItemListContainer</Nav.Link>

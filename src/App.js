@@ -9,6 +9,8 @@ import Home from './components/home';
 
 import ItemListContainer from './components/itemListContainer';
 import NavBarExample from './layouts/navbar';
+import GlassesList from './components/glassesList';
+import CardDetails from './components/cardDetails';
 
 
 function App() {
@@ -24,7 +26,9 @@ function App() {
             <Route index element={ <Home /> } />
             <Route path='about' element={ <About /> } />
             <Route path='contact' element={ <Contact /> } />
-            <Route path='contact' element={ <ItemListContainer /> } />
+            <Route path='itemListContainer' element={ <ItemListContainer /> } />
+            <Route path='catalogo' element={ <GlassesList /> } />
+            <Route path='cardDetails' element={ <CardDetails /> } />
 
             <Route path='*' element={ <Navigate replace to="/"/> } />
             
